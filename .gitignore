@@ -21,3 +21,4 @@ build/
 /ios/**/*.sync/
 /ios/**/.symlinks/
 /ios/Pods/
+.dart_tool/flutter_build/

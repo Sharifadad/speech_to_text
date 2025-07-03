@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "842019079391",
+    "project_id": "worldchat-9b6ab",
+    "storage_bucket": "worldchat-9b6ab.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842019079391:android:a676ee265196d98127d56a",
+        "android_client_info": {
+          "package_name": "com.example.worldchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrLSQVV0KrISgMkhL9R5-guVZ2jaBW-WI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

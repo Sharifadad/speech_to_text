@@ -1,0 +1,62 @@
+name: worldchat
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.0.7
+  get: ^4.7.2
+  firebase_storage: ^12.4.6
+  cloud_firestore: ^5.6.8
+  flutter_plugin_android_lifecycle: ^2.0.19
+  flutter_svg: ^2.1.0
+  google_sign_in: ^7.0.0
+  video_player: ^2.10.0
+  video_compress: ^3.1.4
+  flutter_facebook_auth: ^7.1.2
+  firebase_auth: ^5.6.0
+  firebase_core: ^3.8.0
+  file_picker: ^10.2.0
+ # emoji_picker_flutter: ^4.3.0
+  record: ^6.0.0
+  audioplayers: ^6.5.0
+  path_provider: ^2.1.1
+  intl: ^0.20.2
+  provider: ^6.1.1
+  http: ^1.0.0  # Updated to resolve conflict with flutter_svg
+  #youtube_explode_dart: ^2.4.2
+  youtube_explode_dart: ^2.4.2
+  youtube_player_flutter: ^9.1.1
+  #video_player: ^2.7.0
+  flutter_inappwebview: ^6.1.5  # Use the latest version
+ # emoji_picker_flutter: ^2.1.0
+  #intl: ^0.18.1
+  #http: ^0.13.5
+  shared_preferences: ^2.2.2
+  flutter_markdown: ^0.6.15
+  flutter_dotenv: ^5.1.0
+ # speech_to_text: ^6.6.0+1
+
+ # speech_to_text: ^6.1.1  # For voice input
+  flutter_tts: ^3.6.3    # For voice output
+ # http: ^0.13.5          # For web scraping (if needed)
+  html: ^0.15.0          # For parsing HTML responses
+  speech_to_text:
+    git:
+      url: https://github.com/your_username/speech_to_text.git
+      ref: your_branch
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
